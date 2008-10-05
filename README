@@ -1,0 +1,32 @@
+== Digg Top User Tool
+
+"The Google Cache" blog is on my RSS list and an interesting story came up recently:
+
+http://www.thegooglecache.com/multichannel-marketing/the-tedious-but-effective-way-to-use-digg-recommended/
+
+It details a way to make yourself known to other diggers that happen to be powerusers, thus opening
+the door to get your stories dug.  It seemed pretty easy to code up and I've been playing with ruby
+lately so I thought it'd be fun to solve the first half of the tedium; finding the top diggers.
+
+This code is my very quick reply.  It uses John Wulff's digg-ruby library:
+
+http://code.google.com/p/digg-ruby/
+
+Finding this library was the best part of this little exercise.  It includes some incredible
+meta-programming
+
+== License
+
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                   Version 2, December 2004
+
+Copyright (C) 2004 Sam Hocevar
+ 14 rue de Plaisance, 75014 Paris, France
+Everyone is permitted to copy and distribute verbatim or modified
+copies of this license document, and changing it is allowed as long
+as the name is changed.
+
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+  TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+ 0. You just DO WHAT THE FUCK YOU WANT TO.
