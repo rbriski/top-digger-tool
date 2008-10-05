@@ -15,6 +15,20 @@ http://code.google.com/p/digg-ruby/
 Finding this library was the best part of this little exercise.  It includes some incredible
 meta-programming
 
+== Use
+
+	digg = Digg.new()
+
+	# Give it a topic
+	digg.topic = 'apple'
+
+	# Set the number of top stories for grabbing diggers
+	digg.num_of_stories = 20
+
+	#Gets top ten diggers for these stories
+	#Change parameter "10" to change number of diggers
+	top_diggers = digg.get_top 10
+
 == License
 
            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE

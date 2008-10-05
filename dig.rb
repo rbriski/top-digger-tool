@@ -2,6 +2,7 @@ require 'digg'
 
 class Dig
   attr_accessor :topic
+  attr_accessor :num_of_stories
 
   def initialize(topic = 'apple')
     @topic = topic
